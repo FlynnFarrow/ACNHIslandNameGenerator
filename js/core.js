@@ -1,6 +1,7 @@
 var dictionary = {};
 
 var files = [
+  "acnhrandom"
   "Captain Toad Treasure Tracker",
   "Colors",
   "Elder Scrolls V Skyrim",
