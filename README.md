@@ -29,3 +29,6 @@ See also the list of [contributors](https://github.com/Externalizable/desertedis
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/Externalizable/desertedisland.name/blob/master/LICENSE) file for details
+
+## Credits
+Huge thank you to https://ac-island-generator.glitch.me/ for a list of amazing names that we can use here!
