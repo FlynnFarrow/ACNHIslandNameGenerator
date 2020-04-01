@@ -1,29 +1,7 @@
 var dictionary = {};
 
 var files = [
-  "acnhrandom",
-  "Captain Toad Treasure Tracker",
-  "Colors",
-  "Elder Scrolls V Skyrim",
-  "Flowers",
-  "Fruits & Vegetables",
-  "Gems & Minerals",
-  "Planets & Stars",
-  "Pokemon DPPT",
-  "Pokemon RBY",
-  "Pokemon RSE",
-  "Pokemon SwSh",
-  "Splatoon",
-  "Super Mario Galaxy",
-  "Super Mario Kart 8",
-  "Super Mario Odyssey",
-  "Super Mario Sunshine",
-  "Trees",
-  "Undertale",
-  "Zelda BOTW",
-  "Zelda Majoras Mask",
-  "Zelda OOT",
-  "Zelda Wind Waker"
+  "acnhrandom"
 ];
 
 function getNames() {
@@ -83,7 +61,7 @@ $(document).ready(function() {
     if (keys.length > 0) {
       while (name == undefined || name == currentName) {
         var index = Math.floor(Math.random() * keys.length);
-        name = keys[index] + " Island";
+        name = keys[index];
         category = values[index];
       }
     }
